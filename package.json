@@ -1,0 +1,19 @@
+{
+  "name": "nodeapi_graphql_mysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaveX-j/nodeAPI_GraphQL_mySQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaveX-j/nodeAPI_GraphQL_mySQL/issues"
+  },
+  "homepage": "https://github.com/WaveX-j/nodeAPI_GraphQL_mySQL#readme"
+}

@@ -1,0 +1,17 @@
+type Movies{
+    ID: Int!
+    Name: String
+    Director: String
+    Studio: String
+    Rating: String
+}
+
+type Actors{
+    ID: Int!
+    Name: String
+    AgentName: String
+}
+
+type ActorsMovie{
+    ID
+}
