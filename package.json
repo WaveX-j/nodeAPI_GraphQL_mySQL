@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/WaveX-j/nodeAPI_GraphQL_mySQL/issues"
   },
-  "homepage": "https://github.com/WaveX-j/nodeAPI_GraphQL_mySQL#readme"
+  "homepage": "https://github.com/WaveX-j/nodeAPI_GraphQL_mySQL#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "graphql-tag": "^2.12.6",
+    "mysql": "^2.18.1"
+  }
 }

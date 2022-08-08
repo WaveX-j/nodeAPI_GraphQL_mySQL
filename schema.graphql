@@ -4,6 +4,7 @@ type Movies{
     Director: String
     Studio: String
     Rating: String
+    Actors:[Actors]
 }
 
 type Actors{
@@ -13,5 +14,13 @@ type Actors{
 }
 
 type ActorsMovie{
-    ID
+    MovieID: Int!
+    ActorID: Int!
+
+}
+
+type Query{
+    listMovies:[Movies]
+    listActors:[Actors]
+    Actors:[Actors]
 }
