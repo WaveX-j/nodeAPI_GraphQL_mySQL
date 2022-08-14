@@ -1,26 +1,24 @@
-type Movies{
+type Movie{
     ID: Int!
     Name: String
     Director: String
     Studio: String
     Rating: String
-    Actors:[Actors]
+    Actors:[Actor]
 }
 
-type Actors{
+type Actor{
     ID: Int!
     Name: String
     AgentName: String
 }
 
-type ActorsMovie{
+type ActorMovie{
     MovieID: Int!
     ActorID: Int!
-
 }
 
 type Query{
-    listMovies:[Movies]
-    listActors:[Actors]
-    Actors:[Actors]
+    listMovies:[Movie]
+    listActors:[Actor]
 }
